@@ -1,0 +1,41 @@
+
+/* paleta de colores
+#FFB534 naranja
+#FBF6EE crema
+#C1F2B0 verde claro
+#65B741 verde oscuro
+*/
+
+/* para comentar shift+alt+a */
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Oswald', sans-serif;
+    font-size: 62.5%;
+}
+
+/* header{
+    position: sticky;
+} */
+
+.navColor{
+    background-color:#FFB534 ;
+    font-size: 2.5rem;
+    
+}
+
+
+
+.navColor a{
+    color: white;
+}
+
+/* .alturaCar{
+    height: 100px;
+
+} */
