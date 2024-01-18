@@ -19,9 +19,25 @@ html{
     font-size: 62.5%;
 }
 
-/* header{
-    position: sticky;
-} */
+header{
+    position: sticky;  
+}
+h1{
+    font-size: 4rem;
+    
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 2.8rem;
+}
+
+p{
+    font-size: 1.5rem;
+}
 
 .navColor{
     background-color:#FFB534 ;
@@ -29,13 +45,78 @@ html{
     
 }
 
-
-
 .navColor a{
     color: white;
 }
 
-/* .alturaCar{
-    height: 100px;
+.navColor li{
+    padding: 0px 15px;
+}
 
-} */
+
+.carouselMod{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.presentacion{
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 0px;
+}
+
+.presentacion h1{
+    font-size: 4rem;
+    color: #FFB534;
+}
+
+.presentacion h3{
+    font-size: 2rem;
+
+}
+
+.tarjeta{
+    padding: 20px 0px 0px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    
+}
+
+
+/* Footer----------------------------------------------------------------------------- */
+
+footer{
+    background-color: #FFB534;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
+footer img {
+    width: 50px;    
+}
+
+
+.texFooter{
+    font-size: large;
+}
+footer div{
+   
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.wasapImg{
+
+    position: sticky;
+
+}
