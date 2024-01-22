@@ -10,26 +10,37 @@
 </head>
 <body>
     <header>
-     <nav class="navbar navbar-expand-lg navColor">
+      <nav class="navbar navbar-expand-lg navColor">
         <div class="container-fluid">
           <a class="navbar-brand" href="./index.html"><img src="./image/logo_alta.png" alt="" width="50"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav justify-content-end">
+          <div class="collapse navbar-collapse navDerecha" id="navbarNavDropdown">
+            <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link"  href="./pages/bienvenidos.html">Bienvenidos</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./pages/galeria.html">Galeria</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./pages/productos.html">Productos</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="./pages/productos.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Productos
+                </a>
+                <ul class="dropdown-menu menuDesplegable" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="./pages/productos.html">Funkos personalizados</a></li>
+                  <li><a class="dropdown-item" href="./pages/productos.html">Figuras de acción</a></li>
+                  <li><a class="dropdown-item" href="./pages/productos.html">Armar y pintar</a></li>
+                  <li><a class="dropdown-item" href="./pages/productos.html">Souvenirs</a></li>
+                  <li><a class="dropdown-item" href="./pages/productos.html">Decoración</a></li>
+                  <li><a class="dropdown-item" href="./pages/productos.html">Piezas industriales</a></li>
+                </ul>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./pages/contacto.html">Contacto</a>
               </li>
+              
             </ul>
           </div>
         </div>
@@ -39,7 +50,7 @@
     
     
       <section class="carouselMod">
-        <div id="carouselExampleIndicators" class="carousel slide w-50 ">
+        <div id="carouselExampleIndicators" class="carousel slide w-80 ">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -73,13 +84,13 @@
 
   <main>
      <section class="presentacion">
-      
+      <div class="parrafo">
         <h1>Impresión 3D de alto nivel</h1>
-          <h3>Somos Expertos en Impresión 3D
+          <h2>Somos Expertos en Impresión 3D
         Contamos con maquinaria de última generación y el mejor acabado, lo que nos permite 
         realizar productos de máxima calidad.
-        Facilitamos la posibilidad de imprimir en 3D tus piezas, proyectos, prototipos o diseños.</h3>
-        
+        Facilitamos la posibilidad de imprimir en 3D tus piezas, proyectos, prototipos o diseños.</h2>
+      </div> 
       <div class="tarjeta">
         <div class="card mb-3" style="max-width: 540px;">
           <div class="row g-0">
@@ -163,22 +174,19 @@
     </main>
       
 <!-- Inicio Footer -->
-     <footer >
+     <!-- Inicio Footer -->
 
-      <div class="texFooter">
-          <p><strong>Encontranos en</strong></p>
-          <a href="https://www.facebook.com/excelsior.3d">
-              <img src="./image/facebook.png" class="logoFacebook" alt="facebook"> 
-          </a>
-      
-          <a href="https://www.instagram.com/excelsior.3d">
-              <img src="./image/instagram.png" class="logoInstagram" alt="instagram">
-          </a>
-      </div>
-      <div>
-        <a href="" class="wasapImg"><img src="./image/wasap.png" alt=""></a>
-      </div>
-  </footer>
+     <footer class="justify-content-center">  
+      <ul class="nav col-md-8 justify-content-center list-unstyled d-flex">
+        <li class="ms-3"><a class="text-muted" href="https://getbootstrap.com/docs/5.2/examples/footers/#"> <img src="../image/instagram.png" class="logoInstagram" alt="instagram"></a></li>
+        <li class="ms-3"><a class="text-muted" href="https://getbootstrap.com/docs/5.2/examples/footers/#"><img src="../image/facebook.png" class="logoFacebook" alt="facebook"></a></li>
+        <li class="ms-3"><a class="text-muted" href="https://getbootstrap.com/docs/5.2/examples/footers/#"><img src="../image/youtube.png" class="logoyoutube" alt="youtube"></a></li>
+        <li class="ms-3"><a class="text-muted" href="https://getbootstrap.com/docs/5.2/examples/footers/#"><img src="../image/wasap.png" class="logowasap" alt="wasap"></a></li>
+      </ul>
+    </footer>
+
+
+<!-- Fin Footer -->
  <!-- Fin Footer -->
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>

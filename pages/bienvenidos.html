@@ -9,56 +9,82 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <header>
-     <nav class="navbar navbar-expand-lg navColor">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="../index.html"><img src="../image/logo_alta.png" alt="" width="50"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav justify-content-end">
-              <li class="nav-item">
-                <a class="nav-link"  href="./bienvenidos.html">Bienvenidos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./galeria.html">Galeria</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./productos.html">Productos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./contacto.html">Contacto</a>
-              </li>
-            </ul>
-          </div>
+  <header>
+    <nav class="navbar navbar-expand-lg navColor">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html"><img src="../image/logo_alta.png" alt="" width="50"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse navDerecha" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link"  href="./bienvenidos.html">Bienvenidos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./galeria.html">Galeria</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="./productos.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Productos
+              </a>
+              <ul class="dropdown-menu menuDesplegable" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="./productos.html">Funkos personalizados</a></li>
+                <li><a class="dropdown-item" href="./productos.html">Figuras de acción</a></li>
+                <li><a class="dropdown-item" href="./productos.html">Armar y pintar</a></li>
+                <li><a class="dropdown-item" href="./productos.html">Souvenirs</a></li>
+                <li><a class="dropdown-item" href="./productos.html">Decoración</a></li>
+                <li><a class="dropdown-item" href="./productos.html">Piezas industriales</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contacto.html">Contacto</a>
+            </li>
+            
+          </ul>
         </div>
-      </nav>
-      
-    </header>
+      </div>
+    </nav>
+    
+  </header>
 
     <main>
-            <h1>Bienvenidos</h1>
-    </main>
-      
-<!-- Inicio Footer -->
-     <footer >
+      <main class="bienvenidos">
+        <h1 >Bienvenidos</h1>
+        <h2>Somos Excelsior.3D</h2>
+        <div class="contenedor-grid">
+            <p class="grid-tex-1">Toda familia tiene una historia y hoy vamos a contarles la nuestra.
+                Hacia ya unos años que estaba metido en la impresión 3D, pero en el 2020 nos agarro una Pandemia.
+                Fue ahi que decidimos dejar de lado un hobbie para transformarlo en un negocio. Invertimos en máquinas y dividimos el trabajo en la producción de viceras de seguridad contra COVID que donábamos a los
+                hospitales y la otra parte la dedicamos hacer figuras de colección, funkos personalizados, etc.
+            </p>
+            <p class="grid-tex-2">En la actualidad tenemos un taller de producción altamente preparado para desarrollar cualquier idea que 
+              nos traigan los clientes y de cualquier tamaño. 
+            </p>
 
-      <div class="texFooter">
-          <p><strong>Encontranos en</strong></p>
-          <a href="https://www.facebook.com/excelsior.3d">
-              <img src="../image/facebook.png" class="logoFacebook" alt="facebook"> 
-          </a>
-      
-          <a href="https://www.instagram.com/excelsior.3d">
-              <img src="../image/instagram.png" class="logoInstagram" alt="instagram">
-          </a>
-      </div>
-      <div>
-        <a href="" class="wasapImg"><img src="../image/wasap.png" alt=""></a>
-      </div>
-  </footer>
- <!-- Fin Footer -->
+            <img class="grid-img-2" src="../image/nosotros1.jpg" alt="">
+            <img class="grid-img-1" src="../image/nosotros2.jpg" alt="">
+           
+        </div>
+       
+
+        
+    </main>
+
+<!-- Inicio Footer -->
+
+      <footer class="justify-content-center">  
+        <ul class="nav col-md-8 justify-content-center list-unstyled d-flex">
+          <li class="ms-3"><a class="text-muted" href="https://getbootstrap.com/docs/5.2/examples/footers/#"> <img src="../image/instagram.png" class="logoInstagram" alt="instagram"></a></li>
+          <li class="ms-3"><a class="text-muted" href="https://getbootstrap.com/docs/5.2/examples/footers/#"><img src="../image/facebook.png" class="logoFacebook" alt="facebook"></a></li>
+          <li class="ms-3"><a class="text-muted" href="https://getbootstrap.com/docs/5.2/examples/footers/#"><img src="../image/youtube.png" class="logoyoutube" alt="youtube"></a></li>
+          <li class="ms-3"><a class="text-muted" href="https://getbootstrap.com/docs/5.2/examples/footers/#"><img src="../image/wasap.png" class="logowasap" alt="wasap"></a></li>
+        </ul>
+      </footer>
+
+
+<!-- Fin Footer -->
+
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
