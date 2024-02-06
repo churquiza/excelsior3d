@@ -3,42 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Impresión 3D de alto nivel, Impresión a demanda, disenos personalizados">
+    <meta name="keywords" content="impresión3d, jueguetes, funkos, souvenirs, figuras, personajes">
     <title>Excelsior3D</title>
+    <link rel="shortcuticon" href="./image/logo_baja.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/estilo.css">
 </head>
 <body>
     <header>
       <nav class="navbar navbar-expand-lg navColor">
         <div class="container-fluid">
-          <a class="navbar-brand" href="./index.html"><img src="./image/logo_alta.png" alt="" width="50"></a>
+          <a class="navbar-brand" href="./index.html"><img src="./image/logo_alta.png" alt="excelsior.3d"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse navDerecha" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link"  href="./pages/bienvenidos.html">Bienvenidos</a>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+            <ul class="navbar-nav ">
+              <li class="nav-item ">
+                <a class="nav-link encabezado"  href="./pages/bienvenidos.html">Bienvenidos</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./pages/galeria.html">Galeria</a>
+              <li class="nav-item ">
+                <a class="nav-link encabezado" href="./pages/galeria.html">Galeria</a>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="./pages/productos.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Productos
-                </a>
-                <ul class="dropdown-menu menuDesplegable" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="./pages/productos.html">Funkos personalizados</a></li>
-                  <li><a class="dropdown-item" href="./pages/productos.html">Figuras de acción</a></li>
-                  <li><a class="dropdown-item" href="./pages/productos.html">Armar y pintar</a></li>
-                  <li><a class="dropdown-item" href="./pages/productos.html">Souvenirs</a></li>
-                  <li><a class="dropdown-item" href="./pages/productos.html">Decoración</a></li>
-                  <li><a class="dropdown-item" href="./pages/productos.html">Piezas industriales</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+              <li class="nav-item ">
+                <a class="nav-link encabezado" href="./pages/productos.html">Productos</a>
+              </li>              
+              <li class="nav-item ">
+                <a class="nav-link encabezado" href="./pages/contacto.html">Contacto</a>
               </li>
               
             </ul>
@@ -83,7 +77,8 @@
      </section>
 
   <main>
-     <section class="presentacion">
+
+    <section class="centrado">
       <div class="parrafo">
         <h1>Impresión 3D de alto nivel</h1>
           <h2>Somos Expertos en Impresión 3D
@@ -91,8 +86,9 @@
         realizar productos de máxima calidad.
         Facilitamos la posibilidad de imprimir en 3D tus piezas, proyectos, prototipos o diseños.</h2>
       </div> 
-      <div class="tarjeta">
-        <div class="card mb-3" style="max-width: 540px;">
+
+      <div class="presentacion">
+        <div class="card mb-3 tarjeta" style="max-width: 540px;">
           <div class="row g-0">
             <div class="col-md-4">
               <img src="./image/america.jpg" class="img-fluid rounded-start" alt="figura capitan america">
@@ -107,7 +103,7 @@
           </div>
         </div>
 
-        <div class="card mb-3" style="max-width: 540px;">
+        <div class="card mb-3 tarjeta" style="max-width: 540px;">
           <div class="row g-0">
             <div class="col-md-4">
               <img src="./image/souvenir.jpeg" class="img-fluid rounded-start" alt="dinosaurio para pintar">
@@ -122,7 +118,7 @@
           </div>
         </div>
 
-        <div class="card mb-3" style="max-width: 540px;">
+        <div class="card mb-3 tarjeta" style="max-width: 540px;">
           <div class="row g-0">
             <div class="col-md-4">
               <img src="./image/funkos.jpg" class="img-fluid rounded-start" alt="funko pop personalizado">
@@ -138,7 +134,7 @@
           </div>
         </div>
        
-        <div class="card mb-3" style="max-width: 540px;">
+        <div class="card mb-3 tarjeta" style="max-width: 540px;">
           <div class="row g-0">
             <div class="col-md-4">
               <img src="./image/industrial.jpg" class="img-fluid rounded-start" alt="funko pop personalizado">
@@ -154,7 +150,7 @@
           </div>
         </div>
 
-        <div class="card mb-3" style="max-width: 540px;">
+        <div class="card mb-3 tarjeta" style="max-width: 540px;">
           <div class="row g-0">
             <div class="col-md-4">
               <img src="./image/fab365.jpg" class="img-fluid rounded-start" alt="funko pop personalizado">
@@ -172,8 +168,7 @@
  
      </section>
     </main>
-      
-<!-- Inicio Footer -->
+
      <!-- Inicio Footer -->
 
      <footer class="justify-content-center">  
@@ -186,7 +181,6 @@
     </footer>
 
 
-<!-- Fin Footer -->
  <!-- Fin Footer -->
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>

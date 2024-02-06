@@ -1,0 +1,15 @@
+/* Footer */
+
+footer{
+    background-color: $naranja;
+    padding: 10px 0px;
+    width: 100% !important ;
+    @include flexgeneral (row, 
+    space-around, center);
+
+    img {
+        width: 50px;    
+    }
+}
+ 
+

@@ -1,0 +1,44 @@
+/* Header */
+
+header{
+    
+    .navColor{
+        background-color: $naranja ;
+        font-size: 2.5rem;
+        img {
+            width: 40px;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+        
+          
+        
+        ul{
+            .encabezado{
+                font-family: $font;
+                font-size: 3rem;
+                color: $blanco;
+                &:hover{
+                    text-decoration: underline;
+
+
+                }
+            }
+            li{
+                padding: 0px 15px;
+
+                .submenu{
+                    background-color: $naranja;
+                    font-family: $font;
+                    font-size: 1.5rem;
+
+                }
+
+                
+            }
+            
+        }
+        
+        
+    }
+}

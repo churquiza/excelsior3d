@@ -1,0 +1,54 @@
+@import "generales/general";
+
+/*estilos comunes*/
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+html{
+    font-family: $font;
+    font-size: 62.5%;
+}
+
+h1{
+    font-size: 5.5rem;
+    
+}
+
+h2{
+    font-size: 3.5rem;
+}
+
+h3{
+    font-size: 2.5rem;
+}
+h4{
+    font-size: 2rem;
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+@import "generales/header";
+
+@import "generales/footer";
+
+@import "pages/bienvenidos";
+
+@import "pages/contacto";
+
+@import "pages/galeria";
+
+@import "pages/productos";
+
+
+@import "generales/mediaq";
+
+
+

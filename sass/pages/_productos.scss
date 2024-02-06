@@ -1,0 +1,53 @@
+/* Productos */
+
+.produOrden{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 10px 0px;
+
+    .produCard{
+
+            width: 30%;
+            color: $naranja;
+            border: 2px solid $naranja;
+            border-radius: 10px;
+            background-color: $crema;
+            text-align: center;
+            margin-bottom: 15px;
+            
+            
+
+            img{
+                padding: 5px 5px;
+                border-radius: 10px;
+                height: 300px;
+            }
+
+            ul{
+                
+                li{
+                    font-size: 1.5rem;
+                    color: $negro;
+                    text-align: left;
+                }
+            }
+
+            a{
+                background-color: $crema;
+                color: $naranja;
+                border: 2px solid $naranja;
+
+                &:hover{
+                    background-color: $naranja;
+                    color: $crema;
+
+
+                }
+
+            }
+
+    }
+}
